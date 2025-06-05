@@ -12,13 +12,13 @@
 
 - [🗺️ 3D Maps & Pivot Tables](#️-3d-maps--pivot-tables)
 - [📊 Pivot Table Data Fields](#-pivot-table-data-fields)
-- [🧩 Data Model](#-data-model)
+- [🧩 Pivot Table Data Model](#-data-model)
 - [📈 Pivot Tables & Charts](#-pivot-tables--charts)
-- [🔁 Pivot Table Rearranging & Sorting](#-pivot-table-rearranging--sorting)
-- [⚙️ PowerPivot](#️-powerpivot)
+- [🔁 Pivot Tables Rearranging & Sorting](#-pivot-table-rearranging--sorting)
+- [⚙️ Power Pivot](#️-powerpivot)
 - [🔄 Query Transformation & Cleaning](#-query-transformation--cleaning)
-- [🧮 Sorting & Filtering](#-sorting--filtering)
-- [📈 Tableau Practice](#-tableau-practice)
+- [🧮 Sorting&Filtering](#-sorting--filtering)
+- [📈 TableauPractice](#-tableau-practice)
 - [🛠 Tools Used](#-tools-used)
 - [🤝 Contact](#-contact)
 
@@ -58,7 +58,7 @@
 
 ---
 
-## 🧩 Data Model
+## 🧩 Pivot Table Data Model
 
 **Dataset:** Hotel Booking Data
 
@@ -93,7 +93,7 @@
 
 ---
 
-## 🔁 Pivot Table Rearranging & Sorting
+## 🔁 Pivot Tables Rearranging & Sorting
 
 **Dataset:** Recliner Sales
 
@@ -112,7 +112,7 @@
 
 ---
 
-## ⚙️ PowerPivot
+## ⚙️ Power Pivot
 
 **Dataset:** Wholesale + Date Data
 
@@ -145,7 +145,7 @@
 
 ---
 
-## 🧮 Sorting & Filtering
+## 🧮 Sorting&Filtering
 
 **Dataset:** Employee & Compensation Data
 
@@ -166,7 +166,7 @@
 
 ---
 
-## 📈 Tableau Practice
+## 📈 TableauPractice
 
 **Dataset:** Herb Sales
 
