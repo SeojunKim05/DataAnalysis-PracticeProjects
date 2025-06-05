@@ -1,4 +1,3 @@
-PracticeProjects
 Welcome to PracticeProjects, a personal repository containing hands-on data analysis and visualization projects using Excel and Tableau. 
 These exercises demonstrate pivot tables, data modeling, 3D maps, and other foundational skills essential for real-world data exploration. More projects will be added as I continue to learn and grow.
 
