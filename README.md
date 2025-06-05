@@ -26,7 +26,7 @@
 
 ## 🗺️ 3D Maps & Pivot Tables
 
-**Dataset:**  [King County Food_Inspection](./data/king_county_food_inspection.xlsx)
+**Dataset:**  [King County Food_Inspection](./king_county_food_inspection.xlsx)
 
 <details>
 <summary>View Details</summary>
