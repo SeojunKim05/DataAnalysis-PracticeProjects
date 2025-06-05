@@ -17,7 +17,7 @@
 - [🔁 Pivot Tables Rearranging & Sorting](#-pivot-table-rearranging--sorting)
 - [⚙️ Power Pivot](#️-powerpivot)
 - [🔄 Query Transformation & Cleaning](#-query-transformation--cleaning)
-- [🧮 Sorting&Filtering](#-sorting--filtering)
+- [🧮 Sorting & Filtering](#-sorting--filtering)
 - [📈 TableauPractice](#-tableau-practice)
 - [🛠 Tools Used](#-tools-used)
 - [🤝 Contact](#-contact)
@@ -25,8 +25,6 @@
 ---
 
 ## 🗺️ 3D Maps & Pivot Tables
-
-**Dataset:** King County Food Inspection Data
 
 <details>
 <summary>View Details</summary>
@@ -44,7 +42,7 @@
 
 ## 📊 Pivot Table Data Fields
 
-**Dataset:** Herb Sales
+**Dataset:** Pivot Table Data Fields Raw Data
 
 <details>
 <summary>View Details</summary>
@@ -60,7 +58,7 @@
 
 ## 🧩 Pivot Table Data Model
 
-**Dataset:** Hotel Booking Data
+**Dataset:** Pivot Table Data Model Raw Data
 
 <details>
 <summary>View Details</summary>
@@ -79,7 +77,7 @@
 
 ## 📈 Pivot Tables & Charts
 
-**Dataset:** Herb Sales
+**Dataset:** Pivot Tables & Charts Raw Data
 
 <details>
 <summary>View Details</summary>
@@ -96,7 +94,7 @@
 
 ## 🔁 Pivot Tables Rearranging & Sorting
 
-**Dataset:** Recliner Sales
+**Dataset:** Pivot Tables Rearranging & Sorting Raw Data
 
 <details>
 <summary>View Details</summary>
@@ -115,7 +113,7 @@
 
 ## ⚙️ Power Pivot
 
-**Dataset:** Wholesale + Date Data
+**Dataset:** Power Pivot Raw Data
 
 <details>
 <summary>View Details</summary>
@@ -130,7 +128,7 @@
 
 ## 🔄 Query Transformation & Cleaning
 
-**Dataset:** Customer Contact & Sales Records
+**Dataset:** Query Transformation & Cleaning Raw Data
 
 <details>
 <summary>View Details</summary>
@@ -146,9 +144,9 @@
 
 ---
 
-## 🧮 Sorting&Filtering
+## 🧮 Sorting & Filtering
 
-**Dataset:** Employee & Compensation Data
+**Dataset:** Sorting & Filtering Raw Data
 
 <details>
 <summary>View Details</summary>
@@ -169,7 +167,7 @@
 
 ## 📈 TableauPractice
 
-**Dataset:** Herb Sales
+**Dataset:** TableauPractice Data
 
 <details>
 <summary>View Details</summary>
