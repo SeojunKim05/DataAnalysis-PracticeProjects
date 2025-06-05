@@ -12,8 +12,8 @@
 
 - [🗺️ 3D Maps & Pivot Tables](#️-3d-maps--pivot-tables)
 - [📊 Pivot Table Data Fields](#-pivot-table-data-fields)
-- [📈 Pivot Tables & Charts](#-pivot-tables--charts)
 - [🧩 Data Model](#-data-model)
+- [📈 Pivot Tables & Charts](#-pivot-tables--charts)
 - [🔁 Pivot Table Rearranging & Sorting](#-pivot-table-rearranging--sorting)
 - [⚙️ PowerPivot](#️-powerpivot)
 - [🔄 Query Transformation & Cleaning](#-query-transformation--cleaning)
