@@ -1,68 +1,218 @@
-Welcome to PracticeProjects, a personal repository containing hands-on data analysis and visualization projects using Excel and Tableau. 
-These exercises demonstrate pivot tables, data modeling, 3D maps, and other foundational skills essential for real-world data exploration. More projects will be added as I continue to learn and grow.
+# 📊 PracticeProjects
 
-📁 Project Structure
+[![Excel](https://img.shields.io/badge/Excel-Data%20Analysis-green?logo=microsoft-excel)](https://www.microsoft.com/en-us/microsoft-365/excel)
+[![Tableau](https://img.shields.io/badge/Tableau-Visualization-blue?logo=tableau)](https://www.tableau.com/)
+[![Power Pivot](https://img.shields.io/badge/PowerPivot-Data%20Modeling-orange?logo=microsoft-powerpoint)]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-🔹 3D Maps & Pivot Tables – King County Food Inspection Data
-This project explores public health data from King County to highlight inspection statuses and risk levels of restaurants across different locations in Washington State.
+🎯 A collection of real-world **Excel** and **Tableau** practice projects covering data cleaning, transformation, pivot tables, 3D maps, dashboards, PowerPivot, and more.
 
-PT-NO CONFIRM Pivot:
-Displays restaurants with "Not Confirmed" inspection results.
-Fields: Restaurant name, inspection date, address, business ID, seating/risk info, phone number.
+---
 
-PT-S>250-RC1 Pivot:
-Identifies the number of restaurants with 250+ seating capacity and Risk Category 1.
+## 📚 Table of Contents
 
-PM-NOT READY:
-3D Map visualizing restaurants in Seattle that are "Not Ready for Inspection".
+- [🗺️ 3D Maps & Pivot Tables](#️-3d-maps--pivot-tables)
+- [📊 Pivot Table Data Fields](#-pivot-table-data-fields)
+- [📈 Pivot Tables & Charts](#-pivot-tables--charts)
+- [🔁 Pivot Table Rearranging & Sorting](#-pivot-table-rearranging--sorting)
+- [⚙️ PowerPivot](#️-powerpivot)
+- [🧩 Data Model](#-data-model)
+- [🔄 Query Transformation & Cleaning](#-query-transformation--cleaning)
+- [🧮 Sorting & Filtering](#-sorting--filtering)
+- [📈 Tableau Practice](#-tableau-practice)
+- [🛠 Tools Used](#-tools-used)
+- [🚀 Upcoming Features](#-upcoming-features)
+- [🤝 Contact](#-contact)
 
-PM - EASTSIDE NR:
-3D Map visualizing "Not Ready for Inspection" inspection statuses in Bellevue, Mercer Island, Redmond, Sammamish, and Woodinville.
+---
 
-PM Pivot:
-Rearranges raw data to make it compatible with Power Map (3D Maps).
+## 🗺️ 3D Maps & Pivot Tables
 
-king county food_inspection
-The original raw dataset used throughout this project.
+**Dataset:** King County Food Inspection Data
 
+<details>
+<summary>View Project Details</summary>
 
-🔹 Pivot Table Data Fields – Herb Sales Dataset
-Summarizing and analyzing herb sales using standard pivot tables.
+- `PT-NO CONFIRM`: Restaurants with **"Not Confirmed"** inspections.
+- `PT-S>250-RC1`: Restaurants with **250+ seating** & **Risk Category 1**.
+- `PM-NOT READY`: Seattle restaurants **not ready for inspection**.
+- `PM - EASTSIDE NR`: Unready inspections in Bellevue, Redmond, Mercer Island, Sammamish, Woodinville.
+- `PM Pivot`: Reformats data for mapping.
+- `king county food_inspection`: Raw inspection dataset.
 
-Quarterly Analysis:
-Displays average sales per quarter for 5 different herbs.
+</details>
 
-Yearly Analysis:
-Shows yearly average sales from 2001 to 2005.
+---
 
-Product-Wise Analysis:
-Compares average sales by herb and includes a grand average.
+## 📊 Pivot Table Data Fields
 
-Recommended Pivot:
-Highlights annual total sales for basil leaf, using conditional formatting:
+**Dataset:** Herb Sales (2001–2005)
 
-Bold for values ≥ $80,000
+<details>
+<summary>View Exercises</summary>
 
-Color-coded for easy comparison
+- **By Quarter**: Avg sales per quarter for 5 herbs.
+- **By Year**: Yearly avg from 2001 to 2005.
+- **By Product**: Avg sales by herb & overall.
+- **Recommended Pivot**: Yearly sum for **basil leaf**, with conditional formatting & highlights.
 
+</details>
 
-🔹 Pivot Table Data Model – Hotel Booking Data
-This project emphasizes relational data modeling within Excel using multiple tables and relationships.
+---
 
-Customers, Reservations, and Rooms sheets are converted into structured Excel Tables Initially.
+## 📈 Pivot Tables & Charts
 
-Define Relationships:
+**Dataset:** Regional Herb Sales
 
-Link Customers ↔ Reservations and Rooms ↔ Reservations via key fields using Excel's Data Model.
+<details>
+<summary>View Visuals & Analysis</summary>
 
-PivotTable 1:
-Find all customers with bookings in March.
+- `basil leaf avg sales table`: Avg by **region & quarter** + grand total.
+- `sum of sales percentage`: % contribution of herbs during **low-performing quarters** (North).
+- `max sales rank`: Ranks best quarters by **top 2 products** in Central.
+- `basil leaf avg sales chart`: North vs South sales comparison (3 quarters).
+- `pivot`: Raw data source.
 
-PivotTable 2:
-List reservation values > $500 and associated room type.
+</details>
 
-PivotChart 1:
-Pivot chart that shows reservation value total by country.
+---
 
+## 🔁 Pivot Table Rearranging & Sorting
 
+**Dataset:** Recliner Sales
 
+<details>
+<summary>View Table Manipulations</summary>
+
+- `Sheet1`: Recliner units sold per **salesperson**.
+- `manipulating`: 2014 sales for 2 salespeople.
+- `dategrouping`: Transactions in **March, Q1 2015**.
+- `othergrouping`: Items sold by **region**.
+- `slicers`: Wellington Designs purchases by region.
+- `Sheet2`: Product chart (last 2 quarters of 2015).
+- `creating`: Pivot chart version of raw dataset.
+
+</details>
+
+---
+
+## ⚙️ PowerPivot
+
+**Dataset:** Wholesale + Date Data
+
+<details>
+<summary>View Pivot Tabs</summary>
+
+- `total product sales`: Monthly sum per product + grand total.
+- `total orders`: Monthly order counts.
+- Data cleaned and combined from 2 sources.
+
+</details>
+
+---
+
+## 🧩 Data Model
+
+**Dataset:** Hotel Booking System (Customers, Reservations, Rooms)
+
+<details>
+<summary>View Exercises</summary>
+
+- **Exercise 1**: Convert sheets to Excel Tables, rename as `Customers`, `Reservations`, `Rooms`.
+- **Exercise 2**: Create relationships between:
+  - `Reservations ↔ Customers`
+  - `Reservations ↔ Rooms`
+- **Exercise 3**:
+  - `PivotTable 1`: Show customers booking in **March**.
+  - `PivotTable 2`: Reservations **>$500** and their rooms.
+  - `PivotChart 1`: Chart with labels and custom formatting.
+
+</details>
+
+---
+
+## 🔄 Query Transformation & Cleaning
+
+**Dataset:** Customer Contact & Sales Records
+
+<details>
+<summary>View Transforms</summary>
+
+- `nm contacts`: NM customers with cleaned contact info.
+- `contacts`: Separated names, ZIP, state, etc.
+- `totals`: Totals & averages for **sales**, **expenses**, **profit**.
+- `cleaned`: Final cleaned version.
+- `shape`: Original raw data.
+- `calculations`: Used for derivative profit/sales metrics.
+
+</details>
+
+---
+
+## 🧮 Sorting & Filtering
+
+**Dataset:** Employee & Compensation Data
+
+<details>
+<summary>View Sorting & Filters</summary>
+
+- `sorting`: Multi-level sort — Dept (asc), Building (desc), Status, Rating, Years.
+- `subtotal 1`: Compensation by department.
+- `subtotal 2`: Detailed by employee, grouped.
+- `filter 1`: Full-time, hired after June 1, DMR benefits.
+- `filter 2`: Contract/hourly, Watson building, 11–15 years, rating > 3.
+- `filter 3`: Hourly, hired in 2011, no benefits.
+- `filter 4`: Last name starts with L, rating < 2, 3 years.
+- `splitting data`: Breaks city, state, ZIP.
+- `flash fill`: Cleans phone format and extracts area code.
+
+</details>
+
+---
+
+## 📈 Tableau Practice
+
+**Dataset:** Ansie Seed Sales
+
+<details>
+<summary>View Dashboards</summary>
+
+- **Page 1:** Q3 sales by region.
+- **Page 2:** Bar chart — East vs West.
+- **Page 3:** Pie charts for West, Central, South (by quarter).
+- **Page 4:** Interactive **dashboard** with filterable quarters/products.
+
+</details>
+
+---
+
+## 🛠 Tools Used
+
+| Tool       | Purpose                                  |
+|------------|------------------------------------------|
+| Excel      | Pivot Tables, Charts, 3D Maps, Data Models |
+| PowerPivot | Data Relationships, Calculated Columns   |
+| Power Query| Data Cleaning, Transformation            |
+| Tableau    | Visual Dashboards & Interactive Reports  |
+
+---
+
+## 🚀 Upcoming Features
+
+- 📊 Power BI Dashboards  
+- 🧮 DAX Formulas  
+- ⚙️ Automation using VBA / Apps Script  
+- 📁 Foldered Project Structure  
+- 🌐 Google Sheets Integration
+
+---
+
+## 🤝 Contact
+
+Got feedback or want to collaborate?
+
+📬 [Open an issue](https://github.com/your-username/PracticeProjects/issues)  
+💼 [LinkedIn](https://www.linkedin.com/in/your-profile)  
+📫 Email: your.email@example.com
+
+---
