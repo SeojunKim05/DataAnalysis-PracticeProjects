@@ -3,7 +3,6 @@
 [![Excel](https://img.shields.io/badge/Excel-Data%20Analysis-green?logo=microsoft-excel)](https://www.microsoft.com/en-us/microsoft-365/excel)
 [![Tableau](https://img.shields.io/badge/Tableau-Visualization-blue?logo=tableau)](https://www.tableau.com/)
 [![Power Pivot](https://img.shields.io/badge/PowerPivot-Data%20Modeling-orange?logo=microsoft-powerpoint)]
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 🎯 A collection of real-world **Excel** and **Tableau** practice projects covering data cleaning, transformation, pivot tables, 3D maps, dashboards, PowerPivot, and more.
 
@@ -14,14 +13,13 @@
 - [🗺️ 3D Maps & Pivot Tables](#️-3d-maps--pivot-tables)
 - [📊 Pivot Table Data Fields](#-pivot-table-data-fields)
 - [📈 Pivot Tables & Charts](#-pivot-tables--charts)
+- [🧩 Data Model](#-data-model)
 - [🔁 Pivot Table Rearranging & Sorting](#-pivot-table-rearranging--sorting)
 - [⚙️ PowerPivot](#️-powerpivot)
-- [🧩 Data Model](#-data-model)
 - [🔄 Query Transformation & Cleaning](#-query-transformation--cleaning)
 - [🧮 Sorting & Filtering](#-sorting--filtering)
 - [📈 Tableau Practice](#-tableau-practice)
 - [🛠 Tools Used](#-tools-used)
-- [🚀 Upcoming Features](#-upcoming-features)
 - [🤝 Contact](#-contact)
 
 ---
@@ -36,7 +34,7 @@
 - `PT-NO CONFIRM`: Restaurants with **"Not Confirmed"** inspections.
 - `PT-S>250-RC1`: Restaurants with **250+ seating** & **Risk Category 1**.
 - `PM-NOT READY`: Seattle restaurants **not ready for inspection**.
-- `PM - EASTSIDE NR`: Unready inspections in Bellevue, Redmond, Mercer Island, Sammamish, Woodinville.
+- `PM - EASTSIDE NR`: **Not ready for inspection** in Bellevue, Redmond, Mercer Island, Sammamish, Woodinville.
 - `PM Pivot`: Reformats data for mapping.
 - `king county food_inspection`: Raw inspection dataset.
 
@@ -55,6 +53,24 @@
 - **By Year**: Yearly avg from 2001 to 2005.
 - **By Product**: Avg sales by herb & overall.
 - **Recommended Pivot**: Yearly sum for **basil leaf**, with conditional formatting & highlights.
+
+</details>
+
+---
+
+## 🧩 Data Model
+
+**Dataset:** Hotel Booking System (Customers, Reservations, Rooms)
+
+<details>
+  
+  - Created relationships between:
+  - `Reservations ↔ Customers`
+  - `Reservations ↔ Rooms`
+    
+  - `PivotTable 1`: Show customers booking in **March**.
+  - `PivotTable 2`: Reservations **>$500** and their rooms.
+  - `PivotChart 1`: Chart with labels and custom formatting.
 
 </details>
 
@@ -106,26 +122,6 @@
 - `total product sales`: Monthly sum per product + grand total.
 - `total orders`: Monthly order counts.
 - Data cleaned and combined from 2 sources.
-
-</details>
-
----
-
-## 🧩 Data Model
-
-**Dataset:** Hotel Booking System (Customers, Reservations, Rooms)
-
-<details>
-<summary>View Exercises</summary>
-
-- **Exercise 1**: Convert sheets to Excel Tables, rename as `Customers`, `Reservations`, `Rooms`.
-- **Exercise 2**: Create relationships between:
-  - `Reservations ↔ Customers`
-  - `Reservations ↔ Rooms`
-- **Exercise 3**:
-  - `PivotTable 1`: Show customers booking in **March**.
-  - `PivotTable 2`: Reservations **>$500** and their rooms.
-  - `PivotChart 1`: Chart with labels and custom formatting.
 
 </details>
 
@@ -197,22 +193,12 @@
 
 ---
 
-## 🚀 Upcoming Features
-
-- 📊 Power BI Dashboards  
-- 🧮 DAX Formulas  
-- ⚙️ Automation using VBA / Apps Script  
-- 📁 Foldered Project Structure  
-- 🌐 Google Sheets Integration
-
----
-
 ## 🤝 Contact
 
 Got feedback or want to collaborate?
 
-📬 [Open an issue](https://github.com/your-username/PracticeProjects/issues)  
-💼 [LinkedIn](https://www.linkedin.com/in/your-profile)  
-📫 Email: your.email@example.com
+📬 [Open an issue](https://github.com/SeojunKim05/PracticeProjects/issues)  
+💼 [LinkedIn](https://www.linkedin.com/in/seojun-kim-089b7b339)  
+📫 Email: kseojun05@gmail.com
 
 ---
