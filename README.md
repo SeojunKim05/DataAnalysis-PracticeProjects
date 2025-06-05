@@ -44,7 +44,7 @@
 
 ## 📊 Pivot Table Data Fields
 
-**Dataset:** Herb Sales (2001–2005)
+**Dataset:** Herb Sales
 
 <details>
 <summary>View Exercises</summary>
@@ -60,7 +60,7 @@
 
 ## 🧩 Data Model
 
-**Dataset:** Hotel Booking System (Customers, Reservations, Rooms)
+**Dataset:** Hotel Booking Data
 
 <details>
   
@@ -78,7 +78,7 @@
 
 ## 📈 Pivot Tables & Charts
 
-**Dataset:** Regional Herb Sales
+**Dataset:** Herb Sales
 
 <details>
 <summary>View Visuals & Analysis</summary>
@@ -168,7 +168,7 @@
 
 ## 📈 Tableau Practice
 
-**Dataset:** Ansie Seed Sales
+**Dataset:** Herb Sales
 
 <details>
 <summary>View Dashboards</summary>
