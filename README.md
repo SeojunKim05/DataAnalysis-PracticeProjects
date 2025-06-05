@@ -26,6 +26,8 @@
 
 ## 🗺️ 3D Maps & Pivot Tables
 
+**Dataset:** King County Food Inspection Data
+
 <details>
 <summary>View Details</summary>
 
@@ -113,7 +115,7 @@
 
 ## ⚙️ Power Pivot
 
-**Dataset:** Power Pivot Raw Data
+**Dataset:** WholeSaleData & MonthTable
 
 <details>
 <summary>View Details</summary>
