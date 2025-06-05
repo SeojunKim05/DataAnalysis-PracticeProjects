@@ -6,8 +6,6 @@ These exercises demonstrate pivot tables, data modeling, 3D maps, and other foun
 🔹 3D Maps & Pivot Tables – King County Food Inspection Data
 This project explores public health data from King County to highlight inspection statuses and risk levels of restaurants across different locations in Washington State.
 
-Files & Insights:
-
 PT-NO CONFIRM Pivot:
 Displays restaurants with "Not Confirmed" inspection results.
 Fields: Restaurant name, inspection date, address, business ID, seating/risk info, phone number.
@@ -29,7 +27,7 @@ The original raw dataset used throughout this project.
 
 
 🔹 Pivot Table Data Fields – Herb Sales Dataset
-These exercises focus on summarizing and analyzing herb sales using standard pivot tables.
+Summarizing and analyzing herb sales using standard pivot tables.
 
 Quarterly Analysis:
 Displays average sales per quarter for 5 different herbs.
