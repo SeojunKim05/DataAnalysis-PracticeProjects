@@ -29,7 +29,7 @@
 **Dataset:** King County Food Inspection Data
 
 <details>
-<summary>View Project Details</summary>
+<summary>View Details</summary>
 
 - `PT-NO CONFIRM`: Restaurants with **"Not Confirmed"** inspections.
 - `PT-S>250-RC1`: Restaurants with **250+ seating** & **Risk Category 1**.
@@ -47,7 +47,7 @@
 **Dataset:** Herb Sales
 
 <details>
-<summary>View Exercises</summary>
+<summary>View Details</summary>
 
 - **By Quarter**: Avg sales per quarter for 5 herbs.
 - **By Year**: Yearly avg from 2001 to 2005.
@@ -63,6 +63,7 @@
 **Dataset:** Hotel Booking Data
 
 <details>
+<summary>View Details</summary>
   
   - Created relationships between:
   - `Reservations ↔ Customers`
@@ -81,7 +82,7 @@
 **Dataset:** Herb Sales
 
 <details>
-<summary>View Visuals & Analysis</summary>
+<summary>View Details</summary>
 
 - `basil leaf avg sales table`: Avg by **region & quarter** + grand total.
 - `sum of sales percentage`: % contribution of herbs during **low-performing quarters** (North).
@@ -98,7 +99,7 @@
 **Dataset:** Recliner Sales
 
 <details>
-<summary>View Table Manipulations</summary>
+<summary>View Details</summary>
 
 - `Sheet1`: Recliner units sold per **salesperson**.
 - `manipulating`: 2014 sales for 2 salespeople.
@@ -117,7 +118,7 @@
 **Dataset:** Wholesale + Date Data
 
 <details>
-<summary>View Pivot Tabs</summary>
+<summary>View Details</summary>
 
 - `total product sales`: Monthly sum per product + grand total.
 - `total orders`: Monthly order counts.
@@ -132,7 +133,7 @@
 **Dataset:** Customer Contact & Sales Records
 
 <details>
-<summary>View Transforms</summary>
+<summary>View Details</summary>
 
 - `nm contacts`: NM customers with cleaned contact info.
 - `contacts`: Separated names, ZIP, state, etc.
@@ -150,7 +151,7 @@
 **Dataset:** Employee & Compensation Data
 
 <details>
-<summary>View Sorting & Filters</summary>
+<summary>View Details</summary>
 
 - `sorting`: Multi-level sort — Dept (asc), Building (desc), Status, Rating, Years.
 - `subtotal 1`: Compensation by department.
@@ -171,7 +172,7 @@
 **Dataset:** Herb Sales
 
 <details>
-<summary>View Dashboards</summary>
+<summary>View Details</summary>
 
 - **Page 1:** Q3 sales by region.
 - **Page 2:** Bar chart — East vs West.
